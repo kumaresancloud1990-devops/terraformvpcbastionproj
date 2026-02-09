@@ -1,0 +1,24 @@
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock file (optional: usually keep, but you can ignore if learning)
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# SSH keys
+*.pem
+*.key
